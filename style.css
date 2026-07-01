@@ -1,19 +1,50 @@
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 197, 251);
-    background-color: beige;
+    color: #000000;
+    background-color: #F5EFE6;
 }
 
 p {
     font-weight: 400;
 }
 
-a {
-    color: rgb(255, 85, 176);
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 48px;
+    width: 100%;
 }
 
-a:hover {
-    color: rgb(161, 1, 87);
-    transition: 0.2s;
+.name {
+    color: #C2185B;
+    font-size: 28px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.horizontal-menu {
+    font-size: 28px;
+    align-items: center;
+    gap: 4px;
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    margin: 5px;
+}
+
+.horizontal-menu a {
+    text-decoration: none;
+    color: #4E342E;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    padding: 8px 14px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.horizontal-menu a:hover {
+    background-color: #C2185B;
 }
